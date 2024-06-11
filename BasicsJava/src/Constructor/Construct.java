@@ -8,7 +8,7 @@ public class Construct
 		
 		public Construct()
 		{
-			super();
+			super( );
 			//System.out.println("Default Constructor");
 			//name = "Nova";
 			//id = 24319;
@@ -16,7 +16,7 @@ public class Construct
 		}
 			public Construct (String name, int id)
 			{
-				super();
+				super( );
 			System.out.println("Parameterized Constructor with 2 arguments : ");
 			this.name = name;
 			this.id = id;
@@ -28,7 +28,7 @@ public class Construct
 			this.id = id;
 			this.roll = roll;
 		    }
-			public String getName()
+			public String getName( )
 			{
 				return name;
 			}
@@ -36,7 +36,7 @@ public class Construct
 			{
 				this.name = name;
 			}
-			public int getId()
+			public int getId( )
 			{
 				return id;
 			}
@@ -44,7 +44,7 @@ public class Construct
 			{
 				this.id = id;
 			}
-			public int getroll()
+			public int getroll( )
 			{
 				return roll;
 			}
@@ -53,7 +53,7 @@ public class Construct
 				this.roll = roll;
 			}
 			@Override
-			public String toString() 
+			public String toString( ) 
 			{
 				return "Construct [name=" + name + ", id=" + id + ", roll=" + roll + "]";
 			}

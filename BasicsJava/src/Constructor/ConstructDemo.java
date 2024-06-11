@@ -5,7 +5,7 @@ public class ConstructDemo
 	public static void main(String[] args)
 		{
 		//Object for default Constructor:
-		Construct c = new Construct ();
+		Construct c = new Construct ( );
 		System.out.println(c);
 		
 		//Object for parameterized Constructor:

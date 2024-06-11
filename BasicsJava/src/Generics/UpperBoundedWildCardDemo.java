@@ -1,0 +1,30 @@
+//Driver Program for Upper Bounded Wild Card :
+package Generics;
+
+import java.util.ArrayList;
+
+public class UpperBoundedWildCardDemo 
+{
+
+	public static void main(String [ ] args)
+	{
+		ArrayList<Integer> intList = new ArrayList<Integer> ( );
+		intList.add(10);
+		intList.add(20);
+		//Passing Integer List 
+		System.out.println("sum = " + UpperBoundedWildCard.sumOfList(intList));
+
+		ArrayList<Double> doubleList = new ArrayList<Double> ( );
+		doubleList.add(10.0);
+		doubleList.add(20.0);
+		doubleList.add(30.0);
+		//passing Double List
+		System.out.println("sum = " + UpperBoundedWildCard.sumOfList(doubleList));
+		
+		/*
+		 * ArrayList<String> strList=new ArrayList<String>(); strList.add("Arun");
+		 * strList.add("Ajay"); strList.add("Ragul"); //passing String List
+		 * System.out.println("sum = " + UpperBoundedWildCard.sumOfList(strList));
+		 */
+		}
+}
